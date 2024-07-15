@@ -9,7 +9,7 @@ async function checkWeather(city) {
     const query=city.trim();
     const response = await fetch(`${apiUrl}${query}&appid=${apiKey}`);
     
-    if (response.status == "404") {
+    if (response.status == 404) {
         document.querySelector(".error").style.display = "block";
         document.querySelector(".weather").style.display = "none";
     } else {

@@ -9,14 +9,16 @@
     <body>
         <div class="card">
             <div class="search">
-                <input type="text" placeholder="enter city name" 
-                spellcheck="false">
+                <input class="searchbar" id="city" type="search"
+                placeholder="Enter City Name">
+                <!-- <input type="text"  placeholder="enter city name" -->
+                    <!-- spellcheck="false"> -->
                 <button><img src="weather-app-img/images/search.png"></button>
-                
+
             </div>
             <div class="error">
                 <p>Invalid city name</p>
-                
+
             </div>
             <div class="weather">
                 <img src="weather-app-img/images/rain.png" class="weather-icon">
@@ -25,14 +27,14 @@
                 <div class="details">
                     <div class="col">
                         <img src="weather-app-img/images/humidity.png">
-                        <div >
+                        <div>
                             <p class="humidity">50%</p>
                             <p>Humidity</p>
                         </div>
                     </div>
                     <div class="col">
                         <img src="weather-app-img/images/wind.png">
-                        <div >
+                        <div>
                             <p class="wind">15 km/h</p>
                             <p>Wind Speed</p>
                         </div>
@@ -43,5 +45,5 @@
         <script src="script.js">
             
         </script>
-        </body>
+    </body>
 </html>
